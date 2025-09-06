@@ -1,0 +1,96 @@
+.logo-image img{
+
+    height: 65px;
+    border-radius: 50px;
+}
+
+.logo-image{
+
+    border:2px solid black;
+    width: 80px;
+   border-radius: 50px;
+   background-color: rgb(117, 117, 17);
+   padding: 8px;
+    border:none;
+    
+}
+.top-left-header{
+    width: 700px;
+
+    display: flex;
+    justify-content:end;
+    align-items: center;
+}
+
+.main-heading{
+    margin-left: 15px;
+    color: rgb(117, 117, 17);
+    /* letter-spacing: 1mm; */
+    
+}
+
+.top-header{
+
+    display:flex;
+
+}
+.contact-no{
+
+    display: flex;
+    justify-content: end;
+    width: 700px;
+    align-items: center;
+}
+
+/* navbar start */
+
+.header-list ul{
+
+    list-style: none;
+   
+}
+
+.header-list ul li a{
+
+    text-decoration: none;
+
+}
+
+.header-list ul li{
+/* 
+    display: flex;
+    justify-content: space-around; */
+    margin-left: 40px;
+}
+
+.search:hover{
+
+outline-color:beige;
+}
+
+.bottom-header{
+    
+    background-color: peachpuff;
+    height: 80px;
+
+}
+
+.header-list ul li a i{
+
+color: blue;
+margin-right:3px ;
+    
+}
+
+form i{
+
+position: absolute;
+right: 1px;
+left: 187px;
+top: 5px;
+}
+
+form input::placeholder{
+
+    padding-left: 25px;
+}
